@@ -141,7 +141,7 @@ public class FeedingsView extends Div implements AfterNavigationObserver {
     }
 
     private static Person createPerson(String image, String name, String date, String post, String likes,
-            String comments, String shares) {
+                                       String comments, String shares) {
         Person p = new Person();
         p.setImage(image);
         p.setName(name);
